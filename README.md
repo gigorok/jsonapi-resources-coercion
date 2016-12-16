@@ -1,5 +1,7 @@
 # JSONAPI::Resources::Coercion
 
+[![Build Status](https://travis-ci.org/gigorok/jsonapi-resources-coercion.svg?branch=master)](https://travis-ci.org/gigorok/jsonapi-resources-coercion)
+
 The gem adds type coercion to filters in [jsonapi-resources](https://github.com/cerebris/jsonapi-resources).
 
 ## Installation
