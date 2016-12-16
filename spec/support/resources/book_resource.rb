@@ -4,7 +4,7 @@ class BookResource < JSONAPI::Resource
   filter :qty, type: :integer
   filter :available, type: :boolean
   filter :weight, type: :float
-  filter :price, type: :decimal, precision: 8
+  filter :price, type: :decimal
   filter :published_at, type: :time
 
 end

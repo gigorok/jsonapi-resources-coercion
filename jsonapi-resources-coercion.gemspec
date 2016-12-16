@@ -10,7 +10,7 @@ Gem::Specification.new do |spec|
   spec.email         = ['igor.g@didww.com']
 
   spec.summary       = 'Easily filters type coercion in jsonapi-resources.'
-  spec.homepage      = 'https://github.com/didww/jsonapi-resources-coercion'
+  spec.homepage      = 'https://github.com/gigorok/jsonapi-resources-coercion'
   spec.license       = 'MIT'
 
   spec.files         = `git ls-files -z`.split("\x0").reject { |f| f.match(%r{^(test|spec|features)/}) }
