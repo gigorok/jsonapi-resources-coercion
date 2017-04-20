@@ -1,12 +1,27 @@
 sudo: false
 language: ruby
 rvm:
-  - 2.1.2
-  - 2.2.2
-  - 2.3.0
+  - 2.1.10
+  - 2.2.7
+  - 2.3.4
 gemfile:
-  - gemfiles/jr0.6.gemfile
-  - gemfiles/jr0.7.gemfile
   - gemfiles/jr0.8.gemfile
+  - gemfiles/jr0.9.gemfile
   - Gemfile
+env:
+  - "RAILS_VERSION=5.0"
+  - "RAILS_VERSION=4.2"
+
+matrix:
+  exclude:
+    - rvm: 2.1.10
+      gemfile: gemfiles/jr0.8.gemfile
+      env: "RAILS_VERSION=5.0"
+    - rvm: 2.1.10
+      gemfile: gemfiles/jr0.9.gemfile
+      env: "RAILS_VERSION=5.0"
+    - rvm: 2.1.10
+      gemfile: Gemfile
+      env: "RAILS_VERSION=5.0"
+
 before_install: gem install bundler -v 1.13.6
