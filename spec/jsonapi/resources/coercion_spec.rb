@@ -2,7 +2,7 @@ require "spec_helper"
 
 describe JSONAPI::Resources::Coercion do
   it 'has a version number' do
-    expect(JSONAPI::Resources::Coercion::VERSION).to eq('0.1.0')
+    expect(JSONAPI::Resources::Coercion::VERSION).to eq('0.1.1')
   end
 
   context 'with filters' do
