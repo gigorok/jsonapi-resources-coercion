@@ -4,7 +4,6 @@ rvm:
   - 2.2.7
   - 2.3.4
 gemfile:
-  - gemfiles/jr0.8.gemfile
   - gemfiles/jr0.9.gemfile
   - Gemfile
 env:
