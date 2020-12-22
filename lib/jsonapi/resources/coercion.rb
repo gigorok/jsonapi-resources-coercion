@@ -73,7 +73,7 @@ module JSONAPI
 
         def coerce_as_big_decimal!(val)
           raise CoercionError unless val.to_s.strip =~ /[0-9.]+/
-          BigDecimal.new(val.to_s.strip, DEFAULT_PRECISION)
+          BigDecimal(val.to_s.strip, DEFAULT_PRECISION)
         end
 
         alias_method :coerce_as_decimal!, :coerce_as_big_decimal!
