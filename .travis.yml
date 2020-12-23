@@ -8,5 +8,6 @@ gemfile:
 env:
   - "RAILS_VERSION=5.2"
   - "RAILS_VERSION=6.0"
+  - "RAILS_VERSION=6.1"
 
 before_install: gem install bundler -v 1.17.3
