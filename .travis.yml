@@ -5,7 +5,6 @@ rvm:
   - 2.7.2
 gemfile:
   - gemfiles/jr0.9.gemfile
-  - Gemfile
 env:
   - "RAILS_VERSION=5.0"
   - "RAILS_VERSION=4.2"
