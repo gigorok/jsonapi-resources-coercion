@@ -198,7 +198,7 @@ describe JSONAPI::Resources::Coercion do
 
       it_behaves_like :should_raise_the_exception do
         let(:raw_filter_value) do
-          '123'
+          '1234'
         end
       end
     end
