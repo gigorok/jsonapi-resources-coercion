@@ -4,3 +4,4 @@ source 'https://rubygems.org'
 gemspec path: '../'
 
 gem 'jsonapi-resources', '~> 0.9.0'
+gem 'railties', "~> #{ENV.fetch('RAILS_VERSION', '6.0.0')}"
